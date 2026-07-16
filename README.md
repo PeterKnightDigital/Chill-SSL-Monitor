@@ -8,7 +8,10 @@ Built by [Peter Knight Digital](https://www.peterknight.digital).
 
 <p align="center">
   <a href="https://www.chillssl.com/">
-    <img src="./docs/images/chill-ssl-homepage.jpeg" alt="Chill SSL homepage — SSL monitoring platform with SSL reminders and SSL notifications" width="920" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./docs/images/chillssl-dashboard-music-dark.png" />
+      <img src="./docs/images/chillssl-dashboard-music-light.png" alt="Chill SSL dashboard — SSL monitor with certificate status, SSL reminders, and SSL notifications" width="920" />
+    </picture>
   </a>
 </p>
 
