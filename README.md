@@ -8,14 +8,17 @@ Built by [Peter Knight Digital](https://www.peterknight.digital).
 
 <p align="center">
   <a href="https://www.chillssl.com/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./docs/images/chillssl-dashboard-music-dark.png" />
-      <img src="./docs/images/chillssl-dashboard-music-light.png" alt="Chill SSL dashboard — SSL monitor with certificate status, SSL reminders, and SSL notifications" width="920" />
-    </picture>
+    <img src="./docs/images/chillssl-dashboard-music-dark.png" alt="Chill SSL dark dashboard — SSL monitor with certificate health scores, expiry reminders, and status overview" width="920" />
   </a>
 </p>
 
-<p align="center"><em>Chill SSL — SSL monitor, expiry reminders, and certificate notifications</em></p>
+<p align="center">
+  <a href="https://www.chillssl.com/">
+    <img src="./docs/images/chillssl-dashboard-music-light.png" alt="Chill SSL light dashboard — SSL monitor with certificate health scores, expiry reminders, and status overview" width="920" />
+  </a>
+</p>
+
+<p align="center"><em>Chill SSL — SSL monitor, expiry reminders, and certificate notifications (dark &amp; light)</em></p>
 
 ---
 
