@@ -28,6 +28,8 @@ First patch release for **ChillSSL V1**.
 - Notification thresholds that share the same day value (e.g. 1 day before and after) no longer cause list rendering glitches.
 - App footer shows the product version for all users; ChillSSL.com link points to www.
 - App footer branding clarified to `Chill SSL - vX.Y.Z` (was bare `vX.Y.Z`).
+- Dashboard score card hover tooltips work again after the React 19 upgrade (Tippy binds once the card element has mounted; same fix for IPv6 badge and pricing feature info icons).
+- Dark mode filter dropdowns (Host Type, Status, Issuer, Collections, Tags): selected option highlight was nearly invisible against the menu background; added `--dropdown-selected-bg` and `--dropdown-selected-text` theme variables across shared filter components.
 
 ## [1.0.0] - 2026
 
