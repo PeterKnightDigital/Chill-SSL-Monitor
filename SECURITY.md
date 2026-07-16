@@ -1,6 +1,6 @@
 # Security policy
 
-**Chill SSL** ([www.chillssl.com](https://www.chillssl.com)) — built by [Peter Knight Digital](https://www.peterknight.digital).
+**Chill SSL** ([www.chillssl.com](https://www.chillssl.com)), built by [Peter Knight Digital](https://www.peterknight.digital).
 
 ## Reporting a vulnerability
 
@@ -18,4 +18,4 @@ We will acknowledge receipt as soon as we can and keep you updated on remediatio
 
 ## Scope notes
 
-This public repository contains Chill SSL release notes and issue discussion only — not application source. Reports about third-party services (DNS, certificate authorities, browsers) should go to those vendors unless Chill SSL’s handling of the data is at fault.
+This public repository contains Chill SSL release notes and issue discussion only, not application source. Reports about third-party services (DNS, certificate authorities, browsers) should go to those vendors unless Chill SSL’s handling of the data is at fault.

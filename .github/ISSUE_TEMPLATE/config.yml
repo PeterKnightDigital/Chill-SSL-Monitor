@@ -1,6 +1,6 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Chill SSL — SSL monitor & product site
+  - name: Chill SSL (SSL monitor and product site)
     url: https://www.chillssl.com
     about: SSL monitoring, SSL reminders, and SSL notifications
   - name: Chill SSL Guides
@@ -17,4 +17,4 @@ contact_links:
     about: Studio that built Chill SSL
   - name: Security report (private)
     url: https://github.com/PeterKnightDigital/ChillSSL-Issues/blob/main/SECURITY.md
-    about: Do not file public issues for vulnerabilities — see SECURITY.md
+    about: Do not file public issues for vulnerabilities; see SECURITY.md
