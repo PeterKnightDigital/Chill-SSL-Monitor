@@ -1,8 +1,20 @@
 blank_issues_enabled: false
 contact_links:
-  - name: ChillSSL product site & docs
+  - name: Chill SSL — SSL monitor & product site
     url: https://www.chillssl.com
-    about: Product documentation and general product information
+    about: SSL monitoring, SSL reminders, and SSL notifications
+  - name: Chill SSL Guides
+    url: https://www.chillssl.com/guides/
+    about: Practical SSL/TLS troubleshooting guides
+  - name: Chill SSL Glossary
+    url: https://www.chillssl.com/ssl-glossary/
+    about: Plain-language SSL certificate definitions
+  - name: Chill SSL Blog
+    url: https://www.chillssl.com/blog/
+    about: Product updates and SSL monitoring articles
+  - name: Peter Knight Digital
+    url: https://www.peterknight.digital
+    about: Studio that built Chill SSL
   - name: Security report (private)
     url: https://github.com/PeterKnightDigital/ChillSSL-Issues/blob/main/SECURITY.md
     about: Do not file public issues for vulnerabilities — see SECURITY.md

@@ -1,8 +1,12 @@
 # Changelog
 
-All notable ChillSSL releases are documented here.
+All notable **Chill SSL** releases are documented here — SSL monitoring, SSL reminders, and SSL notification improvements shipping to [app.chillssl.com](https://app.chillssl.com).
 
-Product: [www.chillssl.com](https://www.chillssl.com) · App: [app.chillssl.com](https://app.chillssl.com)
+- Product: [www.chillssl.com](https://www.chillssl.com)
+- SSL Guides: [www.chillssl.com/guides](https://www.chillssl.com/guides/)
+- SSL Glossary: [www.chillssl.com/ssl-glossary](https://www.chillssl.com/ssl-glossary/)
+- Blog: [www.chillssl.com/blog](https://www.chillssl.com/blog/)
+- Built by [Peter Knight Digital](https://www.peterknight.digital)
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
@@ -15,7 +19,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [1.0.1] - 2026-07-14
 
-First patch release for **ChillSSL V1**.
+First patch release for **Chill SSL V1**.
 
 ### Fixed
 - Post-signup auto-login no longer keeps a previously logged-in session — new customers land on the correct account after email verification and password setup.
@@ -30,7 +34,7 @@ First patch release for **ChillSSL V1**.
 
 ## [1.0.0] - 2026
 
-Initial production release of **ChillSSL V1**: certificate monitoring at [app.chillssl.com](https://app.chillssl.com), product site at [www.chillssl.com](https://www.chillssl.com), account signup with email verification, billing, and dashboard alerts.
+Initial production release of **Chill SSL V1**: SSL monitor dashboard at [app.chillssl.com](https://app.chillssl.com), product site at [www.chillssl.com](https://www.chillssl.com), account signup with email verification, billing, SSL reminders, and notification alerts.
 
 [1.0.1]: https://github.com/PeterKnightDigital/ChillSSL-Issues/releases/tag/v1.0.1
 [1.0.0]: https://github.com/PeterKnightDigital/ChillSSL-Issues/releases/tag/v1.0.0

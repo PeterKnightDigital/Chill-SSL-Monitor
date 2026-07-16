@@ -1,11 +1,11 @@
 name: Feature request
-description: Suggest an improvement to ChillSSL
+description: Suggest an improvement to Chill SSL
 labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-        Describe the problem you’re trying to solve. We may not share implementation details of monitoring/scanning internals.
+        Describe the problem you’re trying to solve with Chill SSL (SSL monitoring, reminders, or notifications). We may not share implementation details of monitoring internals.
   - type: textarea
     id: problem
     attributes:

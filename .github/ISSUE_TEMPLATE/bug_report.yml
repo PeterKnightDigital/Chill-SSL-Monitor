@@ -1,11 +1,11 @@
 name: Bug report
-description: Something in ChillSSL isn’t working as expected
+description: Something in Chill SSL isn’t working as expected
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve ChillSSL. **Do not paste secrets**, private keys, session tokens, or other customers’ data.
+        Thanks for helping improve Chill SSL (SSL monitor / reminders / notifications). **Do not paste secrets**, private keys, session tokens, or other customers’ data.
   - type: textarea
     id: what-happened
     attributes:
