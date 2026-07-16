@@ -6,6 +6,14 @@ This public repository is the **changelog, releases, and issue tracker** for Chi
 
 Built by [Peter Knight Digital](https://www.peterknight.digital).
 
+<p align="center">
+  <a href="https://www.chillssl.com/">
+    <img src="./docs/images/chill-ssl-homepage.jpeg" alt="Chill SSL homepage — SSL monitoring platform with SSL reminders and SSL notifications" width="920" />
+  </a>
+</p>
+
+<p align="center"><em>Chill SSL — SSL monitor, expiry reminders, and certificate notifications</em></p>
+
 ---
 
 ## Product & resources
