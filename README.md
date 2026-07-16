@@ -43,13 +43,15 @@ Chill SSL is built for modern certificate lifecycles, including short-lived cert
 <!-- latest-release:start -->
 ### Latest release: [v1.0.1](https://github.com/PeterKnightDigital/Chill-SSL-Monitor/releases/tag/v1.0.1)
 
-- Post-signup auto-login no longer keeps a previously logged-in Clerk session — new customers land on the correct account after email verification and password setup.
-- Expiry threshold eligibility counts ("All 4 certificates eligible") now update immediately after adding or editing a custom threshold — no page reload required. Previously the TanStack Query cache was never invalidated after a save, so new custom threshold rows always showed "None of your certificates will qualify" until refresh.
-- Scan result ingestion endpoint now accepts IPv6 addresses (bracketed or bare literals) as valid hostnames. Previously the colons in IPv6 triggered an "Invalid hostname format" rejection, silently dropping all IPv6 scan results.
-- Notification thresholds that share the same day value (e.g. 1 day before and after) no longer cause list rendering glitches.
-- App footer shows the product version for all users; ChillSSL.com link points to www.
+- Smoother signup hand-off so new customers land on the correct account after email verification.
+- Clearer SSL reminder setup: eligibility counts update as soon as you save a threshold, with no page reload.
+- More reliable IPv6 results when you monitor SSL certificates on IPv6 hosts.
+- Cleaner Let's Encrypt Generation Y issuer labels in the SSL monitor.
+- Steadier same-day SSL notification threshold lists.
+- Broader IPv6 SSL monitoring on a regular schedule.
+- Clearer app footer branding: Chill SSL - vX.Y.Z.
 
-[Full changelog →](./CHANGELOG.md)
+[Full changelog](./CHANGELOG.md)
 <!-- latest-release:end -->
 
 ---

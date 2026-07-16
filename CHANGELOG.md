@@ -19,15 +19,21 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Notes a
 
 ## [1.0.1] - 2026-07-14
 
-First patch release for **ChillSSL V1**.
+First patch release for **Chill SSL V1**.
+
+### Improved
+- Clearer SSL reminder setup: eligibility counts (“how many certificates qualify”) update as soon as you save a custom threshold, with no page reload.
+- Cleaner issuer labels in the SSL monitor: Let's Encrypt Generation Y intermediates (YE1-YE3, YR1-YR3) show as “Let's Encrypt” instead of raw intermediate codes.
+- Steadier SSL notification threshold lists when you use the same day value twice (for example 1 day before and 1 day after).
+- Handy product version in the app footer, with a direct link to [www.chillssl.com](https://www.chillssl.com).
+- Broader IPv6 coverage so you can monitor SSL certificates on more IPv6 hosts on a regular schedule.
+- Clearer app footer branding: shows Chill SSL - vX.Y.Z so the product name and version are obvious at a glance.
 
 ### Fixed
-- Post-signup auto-login no longer keeps a previously logged-in Clerk session — new customers land on the correct account after email verification and password setup.
-- Expiry threshold eligibility counts ("All 4 certificates eligible") now update immediately after adding or editing a custom threshold — no page reload required. Previously the TanStack Query cache was never invalidated after a save, so new custom threshold rows always showed "None of your certificates will qualify" until refresh.
-- Scan result ingestion endpoint now accepts IPv6 addresses (bracketed or bare literals) as valid hostnames. Previously the colons in IPv6 triggered an "Invalid hostname format" rejection, silently dropping all IPv6 scan results.
-- Notification thresholds that share the same day value (e.g. 1 day before and after) no longer cause list rendering glitches.
-- App footer shows the product version for all users; ChillSSL.com link points to www.
-- App footer branding clarified to `Chill SSL - vX.Y.Z` (was bare `vX.Y.Z`).
+- Smoother signup hand-off so new customers land on the correct account after email verification and password setup (avoids staying on a previously signed-in session).
+- More reliable IPv6 results in your SSL monitor: scan results for IPv6 addresses are accepted correctly so those hosts keep updating.
+
+---
 
 ## [1.0.0] - 2026
 
