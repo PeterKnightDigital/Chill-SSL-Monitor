@@ -47,6 +47,7 @@ Chill SSL is built for modern certificate lifecycles — including short-lived c
 - Expiry threshold eligibility counts now update immediately after adding or editing a custom threshold — no page reload required.
 - Certificate scan results for IPv6 addresses are accepted correctly.
 - Let's Encrypt Generation Y intermediates (YE1–YE3, YR1–YR3) now correctly display as "Let's Encrypt".
+- Same-day notification thresholds no longer cause list rendering glitches.
 - Improved IPv6 certificate monitoring on a regular schedule.
 
 [Full changelog →](./CHANGELOG.md)
