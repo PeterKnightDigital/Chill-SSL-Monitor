@@ -41,7 +41,7 @@ Chill SSL is built for modern certificate lifecycles, including short-lived cert
 ## What's new
 
 <!-- latest-release:start -->
-### Latest release: [v1.0.1](https://github.com/PeterKnightDigital/ChillSSL-Issues/releases/tag/v1.0.1)
+### Latest release: [v1.0.1](https://github.com/PeterKnightDigital/Chill-SSL-Monitor/releases/tag/v1.0.1)
 
 - Smoother signup hand-off so new customers land on the correct account after email verification.
 - Clearer SSL reminder setup: eligibility counts update as soon as you save a threshold, with no page reload.

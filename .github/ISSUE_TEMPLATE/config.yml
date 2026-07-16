@@ -16,5 +16,5 @@ contact_links:
     url: https://www.peterknight.digital
     about: Studio that built Chill SSL
   - name: Security report (private)
-    url: https://github.com/PeterKnightDigital/ChillSSL-Issues/blob/main/SECURITY.md
+    url: https://github.com/PeterKnightDigital/Chill-SSL-Monitor/blob/main/SECURITY.md
     about: Do not file public issues for vulnerabilities; see SECURITY.md

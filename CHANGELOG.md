@@ -80,6 +80,6 @@ Formal **Chill SSL V1** marketing release: SSL monitor dashboard at [app.chillss
 
 > Tip for readers: from `1.0.0` onward we publish numbered releases with concrete, customer-facing notes. Pre-1.0.0 work is summarised here so the story of Chill SSL does not look like it started in 2026.
 
-[1.0.1]: https://github.com/PeterKnightDigital/ChillSSL-Issues/releases/tag/v1.0.1
-[1.0.0]: https://github.com/PeterKnightDigital/ChillSSL-Issues/releases/tag/v1.0.0
-[0.9.0]: https://github.com/PeterKnightDigital/ChillSSL-Issues/releases/tag/v0.9.0
+[1.0.1]: https://github.com/PeterKnightDigital/Chill-SSL-Monitor/releases/tag/v1.0.1
+[1.0.0]: https://github.com/PeterKnightDigital/Chill-SSL-Monitor/releases/tag/v1.0.0
+[0.9.0]: https://github.com/PeterKnightDigital/Chill-SSL-Monitor/releases/tag/v0.9.0
