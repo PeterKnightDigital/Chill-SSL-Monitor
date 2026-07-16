@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ChillSSL product site & docs
+    url: https://www.chillssl.com
+    about: Product documentation and general product information
+  - name: Security report (private)
+    url: https://github.com/PeterKnightDigital/ChillSSL-Issues/blob/main/SECURITY.md
+    about: Do not file public issues for vulnerabilities — see SECURITY.md

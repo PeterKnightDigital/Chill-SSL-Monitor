@@ -1,0 +1,55 @@
+name: Bug report
+description: Something in ChillSSL isn’t working as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve ChillSSL. **Do not paste secrets**, private keys, session tokens, or other customers’ data.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what actually happened?
+      placeholder: I expected … but instead …
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps help us confirm the issue.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Dashboard / certificates list
+        - Adding or editing a certificate
+        - Alerts / email notifications
+        - Signup / login / billing
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context
+      description: Browser, rough time of occurrence, IPv4 vs IPv6 if relevant. Redact hostnames if needed.
+    validations:
+      required: false
+  - type: checkboxes
+    id: hygiene
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have searched existing issues and the changelog
+          required: true
+        - label: This report does not include secrets, private keys, or confidential customer data
+          required: true
